@@ -1,6 +1,10 @@
 <div class="read-post">
     <div class="read-post-container">
-        <img class="read-post-img" width="20" height="20" src="https://post.news/favicon-48x48.ico"><a class="read-post-text" href="*Add link to Post profile*" target="_blank" rel="noreferrer nofollow">Read ad-free on Post.news</a>
+        <img class="read-post-img" width="25" height="25" src="https://post.news/favicon-48x48.ico"><a
+            class="read-post-text"
+            href="https://*Post Profile Link*/?utm_source=read_on_post&utm_medium=website_widget&utm_campaign=user_generation"
+            target="_blank" rel="noreferrer nofollow">Read
+            ad-free on Post.</a>
     </div>
 </div>
 <style>
@@ -12,15 +16,30 @@
         font-size: 15px;
         padding: 10px;
         display: flex;
-        align-items: center
+        align-items: center;
+        border: none;
     }
+
     .read-post-container {
         margin: 0 auto;
     }
+
     .read-post-img {
         margin-right: 5px;
     }
+
     .read-post-text {
         color: #000000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .read-post {
+            color: #ffffff;
+            background: #000000;
+        }
+
+        .read-post-text {
+            color: #ffffff;
+        }
     }
 </style>
