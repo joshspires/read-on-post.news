@@ -12,16 +12,27 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background: #688ffc;
+        background-color: #688ffc;
         width: 240px;
         padding: 5px 0;
         font-size: 15px;
         border-radius: 50px;
     }
+
+    .read-post-img {
+        margin-right: 5px;
+    }
+
     .read-post-text {
         color: #ffffff;
         text-decoration: none;
         font-family: sans-serif;
 
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .read-post-container {
+            background-color: #10172b;
+        }    
     }
 </style>
